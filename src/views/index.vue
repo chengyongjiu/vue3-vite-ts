@@ -4,16 +4,16 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref } from "vue";
 export default defineComponent({
   components: {},
   props: {},
   setup() {
-    let name = ref('hello world');
+    let name = ref("hello world");
     return {
-      name,
+      name
     };
-  },
+  }
 });
 </script>
 <style scoped lang="scss">
