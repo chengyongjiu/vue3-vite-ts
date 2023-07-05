@@ -4,7 +4,7 @@ const routers: Array<RouteRecordRaw> = [
   {
     path: "/",
     name: "index",
-    component: () => import("../views/index.vue")
+    component: () => import("@/views/IndexView.vue")
   }
 ];
 
