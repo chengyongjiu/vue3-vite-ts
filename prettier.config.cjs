@@ -17,7 +17,5 @@ module.exports = {
   /** 是否加分号 */
   semi: true,
   /** 是否使用 Tab 格式化 */
-  useTabs: false,
-  // 对象大括号内两边是否加空格 { a:0 }
-  bracketSpacing: true
+  useTabs: false
 };
